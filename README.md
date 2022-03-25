@@ -1,6 +1,6 @@
-# Imersão Dev - Mentalist Challenge
+# Imersão Dev - Temperature Converter
 
-This is the solution to Imersão Dev's Mentalist Challenge.
+This is the solution to Imersão Dev's Temperature Converter Challenge.
 
 ## Table of contents
 
@@ -17,7 +17,7 @@ This is the solution to Imersão Dev's Mentalist Challenge.
 
 ### The challenge
 
-The Mentalist Challenge, proposed by Alura during Imersão Dev, consists in a guessing game where the program chooses a random number between 1 to 10 that must be guessed by the user, whom has 5 tries to guess the correct number.
+The challenge consists in a temperature converter where the user can make the conversion from Celsius to Fahrenheit or Celsius to Kelvin
 
 ### Screenshot
 
@@ -25,8 +25,7 @@ The Mentalist Challenge, proposed by Alura during Imersão Dev, consists in a gu
 
 ### Links
 
-- Live Site URL: [https://izuca.github.io/imersaoDev-Mentalista/](https://izuca.github.io/imersaoDev-Mentalista/)
-- Codepen's base project: [https://codepen.io/imersao-dev/pen/vYgBwoj](https://codepen.io/imersao-dev/pen/vYgBwoj)
+- Live Site URL: [https://izuca.github.io/imersaoDev-Temperatura/](https://izuca.github.io/imersaoDev-Temperatura/)
 
 ## My process
 
@@ -39,19 +38,10 @@ The Mentalist Challenge, proposed by Alura during Imersão Dev, consists in a gu
 
 ### What I learned
 
-- How to fork projects
-
-- Making tests using console.log
-
-- Creating the guessing logic with if and else
-
-- How to use the Javascript's Math.random function to generate random numbers
-
-- How to use an animated background
-```css
-body{
-  background: url(https://i.giphy.com/media/PjJ1cLHqLEveXysGDB/source.gif?cid=ecf05e4722nazj44oilpqk0jmix90wt57ogo6fehxrrrkjmt&rid=source.gif&ct=g),black;
-}
+- How to show the result on screen using innerHTML
+```javascript
+//Atribuição da conversão ao elemento de ID "valorConvertido"
+  document.getElementById("valorConvertido").innerHTML = valorConvertido;
 ```
 
 ### Useful resources
