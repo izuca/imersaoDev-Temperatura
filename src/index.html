@@ -1,0 +1,42 @@
+<div class="container">
+  
+  <!-- Título da Página-->
+  <br><br><br><br>
+  <h1 class="page-title">
+    🌡Conversor de Temperatura🌡
+  </h1>
+  
+  <!-- Subtítulo da Página-->
+  <p class="page-subtitle">
+    Descubra os valores em Fahrenheit e Kelvin
+  </p>
+  
+  <!-- CheckBox -->
+  <div class="Opcoes">
+   <label id="tipo">Escolha a Escala Termométrica</label><br>
+  
+   <label class="escala">
+     <input type="radio" name="escala" id="escalaF" value="fahrenheit" checked>
+       Fahrenheit 
+     </input>
+  
+     <input type="radio" name="escala" id="escalaK" value="Kelvin">
+       Kelvin 
+     </input>
+     <br><br>
+   </label>
+  </div>
+  
+  <!-- Campo da Temperatura-->
+  <label for="moeda">Insira o valor em graus Celsius</label><br> 
+  <input type="number" id="temperatura" size="2" class="conversao" /><br>
+  
+  <!-- Botão Converter-->
+  <button type="submit" onclick="Converter()">Converter</button>
+  
+  <!-- Resultado da Conversão -->
+  <h2 id="valorConvertido"></h2>
+
+</div>
+  
+  
